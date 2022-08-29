@@ -1,6 +1,4 @@
 ﻿// Calculating two digits
-
-Console.Write("Enter first INTEGER digit> ");
-int firstDigit = Console.ReadLine();
-Console.Write("You entered number ");
-Console.WriteLine(firstDigit);
+int numA = new Random().Next(1,10);
+int numB = new Random().Next(1,10);
+Console.WriteLine(numA + numB);
